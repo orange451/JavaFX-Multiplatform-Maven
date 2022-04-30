@@ -24,6 +24,7 @@
 
 	<!-- Profiles -->
 	<profiles>
+		<!-- AMD Linux -->
 		<profile>
 			<id>natives-linux-amd64</id>
 			<activation>
@@ -36,6 +37,8 @@
 				<javafx.platform>linux</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- ARM 64bit Linux -->
 		<profile>
 			<id>natives-linux-aarch64</id>
 			<activation>
@@ -48,6 +51,8 @@
 				<javafx.platform>linux</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- ARM Linux -->
 		<profile>
 			<id>natives-linux-arm</id>
 			<activation>
@@ -60,6 +65,8 @@
 				<javafx.platform>linux</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- ARM 32bit Linux -->
 		<profile>
 			<id>natives-linux-arm32</id>
 			<activation>
@@ -72,6 +79,8 @@
 				<javafx.platform>linux</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- AMD Mac -->
 		<profile>
 			<id>natives-macos-amd64</id>
 			<activation>
@@ -81,9 +90,11 @@
 				</os>
 			</activation>
 			<properties>
-				<javafx.platform>natives-macos</javafx.platform>
+				<javafx.platform>mac</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- Intel Mac -->
 		<profile>
 			<id>natives-macos-intel64</id>
 			<activation>
@@ -96,6 +107,8 @@
 				<javafx.platform>mac</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- M1 Mac -->
 		<profile>
 			<id>natives-macos-aarch64</id>
 			<activation>
@@ -108,6 +121,8 @@
 				<javafx.platform>mac</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- AMD Windows -->
 		<profile>
 			<id>natives-windows-amd64</id>
 			<activation>
@@ -120,6 +135,8 @@
 				<javafx.platform>win</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- Intel Windows -->
 		<profile>
 			<id>natives-windows-intelx86</id>
 			<activation>
@@ -132,6 +149,8 @@
 				<javafx.platform>win</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- Intel 32bit Windows -->
 		<profile>
 			<id>natives-windows-x86</id>
 			<activation>
@@ -144,6 +163,8 @@
 				<javafx.platform>win</javafx.platform>
 			</properties>
 		</profile>
+		
+		<!-- ARM Windows -->
 		<profile>
 			<id>natives-windows-aarch64</id>
 			<activation>
