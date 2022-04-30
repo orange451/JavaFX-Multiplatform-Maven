@@ -10,3 +10,4 @@ Use either of the below commands to test application.
 - $ java -jar target/MyApplication-jar-with-dependencies.jar
 
 # Screenshots
+<img width="432" alt="Screen Shot 2022-04-30 at 4 21 56 PM" src="https://user-images.githubusercontent.com/5247778/166121423-4af4d32f-7a01-43fe-b82c-00dbce5e73ee.png">
