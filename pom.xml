@@ -198,7 +198,7 @@
 				<artifactId>javafx-maven-plugin</artifactId>
 				<version>0.0.3</version>
 				<configuration>
-					<mainClass>dev.anarchy.ui.ServiceChainerApp</mainClass>
+					<mainClass>Main</mainClass>
 					<includePathExceptionsInClasspath>true</includePathExceptionsInClasspath>
 				</configuration>
 			</plugin>
@@ -214,7 +214,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>dev.anarchy.ui.Main</mainClass>
+							<mainClass>Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
