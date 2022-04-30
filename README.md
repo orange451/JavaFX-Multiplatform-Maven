@@ -1,5 +1,5 @@
 # JavaFX Multiplatform Maven
-Sample OpenJFX/JavaFX Maven Application that can be built on any platform.
+Sample OpenJFX/JavaFX Maven Application that can be built on any desktop platform. It can also be run from within the IDE without any extra setup. This Maven POM will build a fat jar with all platform depedencies packaged within.
 
 # Building
 - $ mvn clean package
