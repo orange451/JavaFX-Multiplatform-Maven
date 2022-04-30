@@ -1,10 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
 	<modelVersion>4.0.0</modelVersion>
+	
 	<groupId>org.openjfx</groupId>
+	<version>1.0-SNAPSHOT</version>
 	<artifactId>JavaFX-Multiplatform-Maven</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	
 	<name>JavaFX-Multiplatform-Maven</name>
 	<url>http://maven.apache.org</url>
 
@@ -20,7 +25,7 @@
 	<!-- Profiles -->
 	<profiles>
 		<profile>
-			<id>lwjgl-natives-linux-amd64</id>
+			<id>natives-linux-amd64</id>
 			<activation>
 				<os>
 					<family>unix</family>
@@ -32,7 +37,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-linux-aarch64</id>
+			<id>natives-linux-aarch64</id>
 			<activation>
 				<os>
 					<family>unix</family>
@@ -44,7 +49,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-linux-arm</id>
+			<id>natives-linux-arm</id>
 			<activation>
 				<os>
 					<family>unix</family>
@@ -56,7 +61,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-linux-arm32</id>
+			<id>natives-linux-arm32</id>
 			<activation>
 				<os>
 					<family>unix</family>
@@ -68,7 +73,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-macos-amd64</id>
+			<id>natives-macos-amd64</id>
 			<activation>
 				<os>
 					<family>mac</family>
@@ -80,7 +85,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-macos-intel64</id>
+			<id>natives-macos-intel64</id>
 			<activation>
 				<os>
 					<family>mac</family>
@@ -92,7 +97,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-macos-aarch64</id>
+			<id>natives-macos-aarch64</id>
 			<activation>
 				<os>
 					<family>mac</family>
@@ -104,7 +109,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-windows-amd64</id>
+			<id>natives-windows-amd64</id>
 			<activation>
 				<os>
 					<family>windows</family>
@@ -116,7 +121,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-windows-intelx86</id>
+			<id>natives-windows-intelx86</id>
 			<activation>
 				<os>
 					<family>windows</family>
@@ -128,7 +133,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-windows-x86</id>
+			<id>natives-windows-x86</id>
 			<activation>
 				<os>
 					<family>windows</family>
@@ -140,7 +145,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lwjgl-natives-windows-aarch64</id>
+			<id>natives-windows-aarch64</id>
 			<activation>
 				<os>
 					<family>windows</family>
